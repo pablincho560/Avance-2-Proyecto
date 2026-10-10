@@ -1,0 +1,16 @@
+{
+  "tag": "baseline",
+  "config": {
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "top_k": 4,
+    "embedding_model": "gemini-embedding-001",
+    "generation_model": "gemini-3.1-flash-lite"
+  },
+  "metricas": {
+    "faithfulness": 0.8125,
+    "answer_relevancy": 0.7236,
+    "context_precision": 0.9375,
+    "context_recall": 1.0
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es una pila y qué principio sigue?",
+    "ground_truth": "Una pila es una estructura de datos lineal que sigue el principio LIFO (Last In, First Out): el último elemento en entrar es el primero en salir.",
+    "in_corpus": true
+  },
+  {
+    "id": 2,
+    "question": "¿Qué hacen las operaciones push y pop en una pila?",
+    "ground_truth": "Push inserta un elemento en la cima de la pila y pop elimina y devuelve el elemento que está en la cima.",
+    "in_corpus": true
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es una cola y qué principio sigue?",
+    "ground_truth": "Una cola es una estructura de datos lineal que sigue el principio FIFO (First In, First Out): el primer elemento en entrar es el primero en salir.",
+    "in_corpus": true
+  },
+  {
+    "id": 4,
+    "question": "¿Qué hacen las operaciones enqueue y dequeue en una cola?",
+    "ground_truth": "Enqueue agrega un elemento al final de la cola y dequeue elimina y devuelve el elemento que está al frente.",
+    "in_corpus": true
+  },
+  {
+    "id": 5,
+    "question": "¿Qué es una lista enlazada?",
+    "ground_truth": "Es una estructura de datos formada por nodos, donde cada nodo guarda un dato y una referencia (puntero) al siguiente nodo.",
+    "in_corpus": true
+  },
+  {
+    "id": 6,
+    "question": "¿Qué ventaja tiene una lista enlazada frente a un arreglo?",
+    "ground_truth": "A diferencia de un arreglo, una lista enlazada no necesita memoria contigua, por lo que su tamaño puede crecer o reducirse dinámicamente.",
+    "in_corpus": true
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es un árbol binario de búsqueda (BST)?",
+    "ground_truth": "Es un árbol en el que cada nodo tiene como máximo dos hijos: los valores del subárbol izquierdo son menores que el nodo y los del derecho son mayores.",
+    "in_corpus": true
+  },
+  {
+    "id": 8,
+    "question": "¿Qué recorrido de un BST devuelve los elementos en orden ascendente?",
+    "ground_truth": "El recorrido inorden (izquierda, raíz, derecha) devuelve los elementos ordenados de menor a mayor.",
+    "in_corpus": true
+  },
+  {
+    "id": 9,
+    "question": "¿Qué es un grafo?",
+    "ground_truth": "Un grafo es un conjunto de nodos (vértices) conectados por aristas, que pueden ser dirigidas o no dirigidas, y tener o no peso.",
+    "in_corpus": true
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es la complejidad promedio de buscar un valor en un árbol binario de búsqueda?",
+    "ground_truth": "La búsqueda en un árbol binario de búsqueda tiene complejidad O(log n) en promedio.",
+    "in_corpus": true
+  },
+  {
+    "id": 11,
+    "question": "¿Qué es un algoritmo de ordenamiento?",
+    "ground_truth": "Los algoritmos de ordenamiento reorganizan una colección de elementos según un criterio, por ejemplo de menor a mayor.",
+    "in_corpus": true
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo funciona el ordenamiento burbuja (bubble sort)?",
+    "ground_truth": "Bubble Sort compara elementos adyacentes y los intercambia; es simple pero ineficiente, con complejidad O(n^2) en el peor caso.",
+    "in_corpus": true
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál es la capital de Australia?",
+    "ground_truth": "El material de estudio no contiene esa información.",
+    "in_corpus": false
+  },
+  {
+    "id": 14,
+    "question": "¿Quién ganó el último mundial de fútbol?",
+    "ground_truth": "El material de estudio no contiene esa información.",
+    "in_corpus": false
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál es la receta de la lasaña?",
+    "ground_truth": "El material de estudio no contiene esa información.",
+    "in_corpus": false
+  },
+  {
+    "id": 16,
+    "question": "¿Cuál es el nombre de la última canción de Maluma?",
+    "ground_truth": "El material de estudio no contiene esa información.",
+    "in_corpus": false
+  }
+]
